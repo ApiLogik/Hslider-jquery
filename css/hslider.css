@@ -1,0 +1,59 @@
+/* 
+HSLIDER - Horizontal slider for HTML elements
+
+CSS StyleSheet for HSlider 
+
+Customize bellow or by your main stylesheet / Personalize abaixo ou na sua folha de estilos principal
+*/ 
+/*--------------------------------------------*/
+
+	/* Full slider container */
+	.box-slides{
+		width: 100%;
+		display: inline-flex;
+		position: relative;
+		text-align: center;
+	}
+
+	
+	/* Individual slides */
+	.slide-single{
+		width: 100%;
+		margin: 0 8vw;
+		position: relative;
+		cursor: grab;
+	}
+
+	.slide-single:active{cursor: grabbing;}
+
+
+	/* Navigation bullets */
+	.nav-slides{
+		display: inline-flex;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.nav-slides i{
+		font-size: 30px;
+		cursor: pointer;
+	}
+
+	.box-nav-spans{
+		display: inline-flex;
+		flex-wrap: wrap;
+	}
+
+	.box-nav-spans span{
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		background: rgb(150,150,150);
+		margin: 5px 10px;
+		box-sizing: border-box;
+	}
+
+	.bordnav{
+		border: 3px solid #969696;
+		background: rgb(0,0,0)!important;
+	}

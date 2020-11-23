@@ -1,0 +1,109 @@
+/*****     GENERAL     ****/
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	
+
+	html,body{
+		width: 100%;
+		height: 100%;
+		font-family: sans-serif;
+		background: black;
+	}
+
+	html,body:active{outline: 0;}
+
+	h1{
+		font-size: 50px;
+		margin: 0 auto;
+		color: white;
+	}
+
+	a{text-decoration: none; color: white;}
+	a:hover{text-decoration: underline;}
+
+	section{
+		width: 100%;
+		padding: 50px 2%;
+		margin-top: 30px;
+		color: white;
+	}
+
+	.container{
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 2%;
+		text-align: center;
+	}
+
+	.demo-w100{text-align: center;}
+
+	.demo-w100 h2{padding-bottom: 15px;}
+
+	.demo-w50{background: white;}
+	
+	.img{
+		height: 100%;
+		width: 100%;
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.bg01{background-image: url(../media/slide01.webp);}
+	.bg02{background-image: url(../media/slide02.webp);}
+	.bg03{background-image: url(../media/slide03.webp);}
+	.bg04{background-image: url(../media/slide04.webp);}
+	.bg05{background-image: url(../media/slide05.webp);}
+	.bg06{background-image: url(../media/slide06.webp);}
+
+	.imgnasa{
+		width: 100%;
+		height: 300px;
+		background-color: black;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.in1{background-image:  url(../media/nasa01.webp);}
+	.in2{background-image:  url(../media/nasa02.webp);}
+	
+	.slide-single-2.ss1{background-color: #06004f;}
+	.slide-single-2.ss3{background-color: black;}
+
+	.flexbox{
+		width: 100%;
+		display: inline-flex;
+		flex-wrap: wrap;
+	}
+
+	.w50{
+		width: 50%;
+		text-align: center;
+	}
+
+	.w50:nth-of-type(2){
+		height: 500px;
+		background: black;
+	}
+
+	@media screen and (max-width: 500px){
+		section{margin: 0 auto;}
+
+		.w50{width: 100%;}
+
+		.box-slides{height: 20vh;}
+
+		.slide-single{height: 20vh;}
+
+		.box-slides-2{padding: 20px 2px;}
+
+		.slide-single-2 iframe{
+			width: 250px;
+			height: 200px;}
+
+		.w50:nth-of-type(2){height: 200px;}
+	}

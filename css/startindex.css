@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: Arial, "sans-serif";
+	overflow-x: hidden;
+}
+
+.index{
+	background-color: black;
+	color: white;
+}
+
+section{padding: 20px 2%;}
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header{
+	width: 100%;
+	height: 250px;
+	background-color: black;
+	border-bottom: 1px solid gray;
+}
+
+h1{padding: 10px;}
+
+.header-center p{font-size: 14px;}
+
+@keyframes slideheaderL{
+	0%{left:1700px;}
+	100%{left: 0;}
+}
+
+@keyframes slideheaderR{
+	0%{right:1700px;}
+	100%{right: 0;}
+}
+
+-webkit-@keyframes slideheaderL{
+	0%{left:1700px;}
+	100%{left: 0;}
+}
+
+-webkit-@keyframes slideheaderR{
+	0%{right:1700px;}
+	100%{right: 0;}
+}
+
+-moz-@keyframes slideheaderL{
+	0%{left:1700px;}
+	100%{left: 0;}
+}
+
+-moz-@keyframes slideheaderR{
+	0%{right:1700px;}
+	100%{right: 0;}
+}
+
+.header-center h1{
+	font-size: 60px;
+	animation-name: slideheaderL;
+	animation-duration: 2s;
+	position: relative;
+}
+
+.header-center h2{
+	animation-name: slideheaderR;
+	animation-duration: 2s;
+	position: relative;
+}
+
+p{font-size: 16px;line-height: 1.5;}
+
+b{color: #26b976;}
+
+h2{padding: 10px;}
+
+.header-center a{
+	font-size: 30px;
+	margin: 5px;
+	color: #4298ad;
+	text-decoration: none;
+}
+
+a{	
+	font-size: 16px;
+	color: #26b976;
+	text-decoration: none;
+}
+
+a:hover{text-decoration: underline;}
+
+iframe{
+	margin: 30px 0;
+	width: 600px;
+	padding: 20px;
+	background-color: #28282d;
+}
+
+iframe:nth-of-type(1){height: 30px;}
+iframe:nth-of-type(2){height: 100px;}
+iframe:nth-of-type(3){height: 250px;}
+iframe:nth-of-type(4){height: 150px;}
+iframe:nth-of-type(4){height: 200px;}
+
+pre{
+	font-size: 14px;
+	line-height: 0.5;
+	color: #26b976;
+}
+
+.descr{
+	width: 60%;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.instr{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.instr p:nth-of-type(1),
+.instr p:nth-of-type(2){text-align: center;}
+.instr p:nth-of-type(3){color: #da6262;}
+.instr p{text-align: left;}
+
+footer{
+	border-top: 1px solid gray;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+
+@media screen and (max-width: 620px){
+	header{height: 300px;}
+
+	.instr{margin: 0;}
+
+	iframe{width: 100%;margin: 0 auto;}
+
+}
+
+@media screen and (max-width: 380px){
+	pre{overflow-x: scroll;width:100%;}
+}

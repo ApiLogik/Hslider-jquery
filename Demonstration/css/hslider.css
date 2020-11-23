@@ -1,0 +1,81 @@
+/* 
+HSLIDER - Horizontal slider.
+
+CSS StyleSheet for HSlider 
+
+Customize bellow or by your main stylesheet / Personalize abaixo ou na sua folha de estilos principal
+*/
+/*--------------------------------------------*/
+
+	/* Full slider container */
+	.box-slides,
+	.box-slides-2{
+		width: 100%;
+		display: inline-flex;
+		position: relative;
+		text-align: center;
+	}
+
+
+	/* Individual slides */
+	.slide-single,
+	.slide-single-2{
+		width: 100%;
+		margin: 0 8vw;
+		position: relative;
+		cursor: grab;
+		user-select: none;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+	}
+
+	.slide-single:active,
+	.slide-single-2:active{cursor: grabbing;}
+
+
+	/* Slides' height */
+	.slide-single{height: 500px;}
+	.slide-single-2{height: 300px;}
+
+
+	/* Navigation bullets */
+	.nav-slides,
+	.nav-slides-2{
+		display: inline-flex;
+		text-align: center;
+		margin: 10px 0 0 0;
+	}
+
+	.nav-slides i,
+	.nav-slides-2 i{
+		font-size: 30px;
+		cursor: pointer;
+	}
+
+	.nav-slides-2 i{color: black;}
+
+	.box-nav-spans,
+	.box-nav-spans-2{
+		display: inline-flex;
+		flex-wrap: wrap;
+	}
+
+	.box-nav-spans span,
+	.box-nav-spans-2 span{
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		background: rgb(150,150,150);
+		margin: 5px 10px;
+		box-sizing: border-box;
+	}
+
+	.bordnav{
+		border: 3px solid white;
+		background: rgb(50,50,50)!important;
+	}
+
+	.bordnav-2{
+		border: 3px solid gray;
+		background: rgb(50,50,50)!important;
+	}

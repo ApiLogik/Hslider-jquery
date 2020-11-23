@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>                      <!--EXEMPLE / EXEMPLO -->
+	<meta charset="utf-8" />
+	<title>HSlide - HTML</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!----CSS---->
+	<link href="css/hslider.css" rel="stylesheet" />
+</head>
+<body>
+	<section>
+		<div class="container">
+			<div class="box-slides">
+				<div class="slide-single">
+					<!--your-slide-here-->
+				</div>
+				<div class="slide-single">
+					<!--your-slide-here-->
+				</div>
+				<div class="slide-single">
+					<!--your-slide-here-->
+				</div>
+				<div class="slide-single">
+					<!--your-slide-here-->
+				</div>
+				<div class="slide-single">
+					<!--your-slide-here-->
+				</div>
+				<div class="slide-single">
+					<!--your-slide-here-->
+				</div>
+			</div><!--box-slides-->
+			<div class="nav-slides">
+				<i id="navprev"><<!--your-nav-icon-left--></i>
+				<span class="box-nav-spans">
+					<!--<span></span> added by JS-->
+				</span>
+				<i id="navnext">><!--your-nav-icon-right--></i>
+			</div><!--nav-slides nav1-->
+		</div><!--container-->
+	</section>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/hslider.js"></script>
+</body>
+</html>
